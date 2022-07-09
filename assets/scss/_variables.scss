@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1290px;
+$breakpoint-xs: 320px;
+$breakpoint-xlg: 1700px;
+:root {
+  --color1: #bb7ab2;
+  --color2: #7fc9cb;
+  --color3: #ccc;
+  --color4: rgb(190, 190, 190);
+  --color5: rgb(216, 216, 216);
+  --color6: rgb(255, 255, 255);
+  --color7: #ef922e;
+  --color8: #b983ff;
+  --color9: #94b3fd;
+  --color10: #94daff;
+  --color11: #77acf1;
+  --color12: #3edbf0;
+  --color13: #90e9e7;
+}
+$botones: (
+  padding: 8px 5px,
+  margen: 20px,
+  borde: 0px none,
+  radio: 5px,
+  color: var(--color2),
+  letra: var(--color3),
+);
