@@ -458,3 +458,23 @@ section.combo3Interior {
 .foother img {
   width: 60%;
 }
+
+.quienesSomos {
+  @media screen and(max-width:800px) {
+    .combos {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      grid-template-rows: 200px;
+      margin: 20px;
+      padding: 40px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .combos {
+      width: 60%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
